@@ -1,5 +1,6 @@
 # JS Clock
-Clock in HTML, CSS and JavaScript 
+Clock in HTML, CSS and JavaScript.
+Can switch between Analog and Digital formats. 
 
 ## Preview 
 ### Analog Clock 
