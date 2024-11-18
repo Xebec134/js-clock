@@ -27,7 +27,6 @@
     /* TODO: variables for box-shadow */
     
     /* font sizes */
-    --small-font-size: ;
     --regular-font-size: 2rem;
     --medium-font-size: 3rem;
     --large-font-size: 4rem;
@@ -242,4 +241,28 @@ body {
 
 .next-format {
     color: var(--btn-text-color-da);
+}
+
+@media screen and (max-width: 600px) {
+    :root {
+        --regular-font-size: 1.8rem;
+        --medium-font-size: 2rem;
+        --large-font-size: 3rem;
+    }
+    .analog-clock {
+        width: 370px;
+        height: 370px;
+        transition: none; 
+    }
+
+    .point {
+        top: 46%;
+        left: 46%;
+    }
+
+    .digital-clock {
+        width: 360px;
+        height: 260px;
+        transition: none; 
+    }
 }
